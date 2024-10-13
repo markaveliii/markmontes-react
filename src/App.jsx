@@ -10,8 +10,11 @@ const App = () => {
   //return component
   return (
     <>
-      <Navbar />
+      
       <div className="snap-y snap-mandatory overflow-y-scroll h-screen ">
+            <div className="snap-always snap-center">
+              <Navbar />
+            </div>
             <Banner bgImage = 'bg-meteorShower' title = 'FileMaker Experience'/>
             <div className="snap-always snap-center">
               <Section bgImage = 'bg-space' bgColor='bg-cyan-900' title={lor}/>

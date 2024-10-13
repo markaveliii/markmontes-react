@@ -28,9 +28,9 @@ function Section({bgImage, bgColor, title}) {
                             grid
                             grid-cols-3
                             `}>
-                            <p className='text-white p-20'>{title}</p>
-                            <p className='text-white p-20'>{title}</p>
-                            <p className='text-white p-20'>{title}</p>
+                            <p className='flex content-center items-center justify-center text-white text-sm p-20'>{title}</p>
+                            <p className='flex content-center items-center justify-center text-white text-sm p-20'>{title}</p>
+                            <p className='flex content-center items-center justify-center text-white text-sm p-20'>{title}</p>
 
                         </div>
                 </div>

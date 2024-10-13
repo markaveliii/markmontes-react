@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
 <div className="flex items-center justify-between border-4 border-black bg-slate-400 p-2">
       <a href="/">
-        <img src='assets/markIcon.svg' alt="logo" width="20%" height="20%" />
+        <img src='huh.jpg' alt="logo" width="20%" height="20%" />
       </a>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">

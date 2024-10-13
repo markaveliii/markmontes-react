@@ -7,6 +7,8 @@ const Navbar = () => {
       <a href="/">
         <img src='assets/markIcon.svg' alt="logo" width="20%" height="20%" />
       </a>
+      <h1 className='font-bold'>Mark Montes</h1>
+
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div

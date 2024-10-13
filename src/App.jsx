@@ -15,16 +15,16 @@ const App = () => {
             <div className="snap-always snap-center">
               <Navbar />
             </div>
-            <Banner bgImage = 'bg-meteorShower' title = 'FileMaker Experience'/>
             <div className="snap-always snap-center">
+              <Banner bgImage = 'bg-meteorShower' title = 'FileMaker Experience'/>
               <Section bgImage = 'bg-space' bgColor='bg-cyan-900' title={lor}/>
             </div>
-            <Banner bgImage = 'bg-blackRain' title = 'Software Experience'/>
             <div className="snap-always snap-center" >
+              <Banner bgImage = 'bg-blackRain' title = 'Software Experience'/>
               <Section bgImage = 'bg-bwBox' bgColor='bg-black' title={lor}/>
             </div>
-            <Banner bgImage = 'bg-goldLight' title = 'Contact' bgColor = 'bg-yellow-700'/>
             <div className="snap-always snap-center" >
+              <Banner bgImage = 'bg-goldLight' title = 'Contact' bgColor = 'bg-yellow-700'/>
               <Section bgImage = 'bg-goldForest' bgColor='bg-yellow-900' title={lor}/>
             </div>
       </div>

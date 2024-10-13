@@ -3,7 +3,7 @@ import React from 'react'
 function Section({bgImage, bgColor, title}) {
   return (
     // container
-        <div className='snap-y snap-mandatory h-screen w-screen overflow-scroll scroll-smooth'>
+        <div className='snap-y snap-mandatory h-4/5 w-screen overflow-scroll scroll-smooth'>
             {/* slider */}
                 <div className={`
                     ${bgImage}
@@ -14,7 +14,7 @@ function Section({bgImage, bgColor, title}) {
                     justify-center 
                     snap-start 
                     bg-stone-600 
-                    h-screen 
+                    h-full
                     w-screen
                     text-white
                     '

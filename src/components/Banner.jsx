@@ -14,7 +14,7 @@ function Banner({title , bgImage, bgColor}) {
     w-screen
     text-white
     bg-fixed
-    h-52
+    h-1/5
 
     '`}>    
         <div className={`
@@ -23,6 +23,7 @@ function Banner({title , bgImage, bgColor}) {
             rounded 
             opacity-80 
             flex 
+            items-center
             justify-center
             h-3/4
             w-3/4

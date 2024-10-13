@@ -10,14 +10,14 @@ export default {
         sans: ['Verdana' , 'sans-serif']
       },
       backgroundImage:{
-        'space' : "url('src/assets/nasa-unsplash.jpg')",
-        'goldLight' : "url('src/assets/rene-bohmer.jpg')",
-        'bwBox' : "url('src/assets/shubham-dhage.jpg')",
-        'goldRain' : "url('src/assets/joshua-sortino.jpg')",
-        'blueRain' : "url('src/assets/christopher-burns.jpg')",
-        'blackRain' : "url('src/assets/blackCubeRain.jpg')",
-        'goldForest' : "url('src/assets/goldForest.jpg')",
-        'meteorShower' : "url('src/assets/meteorShower.jpg')",
+        'space' : "url('public/assets/nasa-unsplash.jpg')",
+        'goldLight' : "url('public/assets/rene-bohmer.jpg')",
+        'bwBox' : "url('public/assets/shubham-dhage.jpg')",
+        'goldRain' : "url('public/assets/joshua-sortino.jpg')",
+        'blueRain' : "url('public/assets/christopher-burns.jpg')",
+        'blackRain' : "url('public/assets/blackCubeRain.jpg')",
+        'goldForest' : "url('public/assets/goldForest.jpg')",
+        'meteorShower' : "url('public/assets/meteorShower.jpg')",
 
       },
       gridTemplateColumns: {

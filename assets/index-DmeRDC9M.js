@@ -58,7 +58,7 @@ Error generating stack: `+i.message+`
                             opacity-80 
                             grid
                             grid-cols-3
-                            `,children:[N.jsx("p",{className:"text-white p-20",children:t}),N.jsx("p",{className:"text-white p-20",children:t}),N.jsx("p",{className:"text-white p-20",children:t})]})})})}function Ql({title:e,bgImage:n,bgColor:t}){return N.jsx("div",{className:`
+                            `,children:[N.jsx("p",{className:"flex content-center items-center justify-center text-white text-sm p-20",children:t}),N.jsx("p",{className:"flex content-center items-center justify-center text-white text-sm p-20",children:t}),N.jsx("p",{className:"flex content-center items-center justify-center text-white text-sm p-20",children:t})]})})})}function Ql({title:e,bgImage:n,bgColor:t}){return N.jsx("div",{className:`
     ${n}
     '
     bg-cover

@@ -18,8 +18,6 @@ export default {
         'blackRain' : "url('assets/blackCubeRain.jpg')",
         'goldForest' : "url('assets/goldForest.jpg')",
         'meteorShower' : "url('assets/meteorShower.jpg')",
-        'markIcon' : "url('assets/markIcon.svg')",
-
       },
       gridTemplateColumns: {
         '70/30' : '70% 28%',

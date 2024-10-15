@@ -12,17 +12,14 @@ const App = () => {
     <>
       <Navbar />
       <div className="snap-y snap-mandatory overflow-y-scroll h-screen ">
-            <Banner bgImage = 'bg-meteorShower' title = 'FileMaker Experience'/>
             <div className="snap-always snap-center">
-              <Section bgImage = 'bg-space' bgColor='bg-cyan-900' title={lor}/>
+              <Section bannerBG = 'bg-meteorShower' bgImage = 'bg-space' bgColor='bg-cyan-900' title='Title' text={lor}/>
             </div>
-            <Banner bgImage = 'bg-blackRain' title = 'Software Experience'/>
             <div className="snap-always snap-center" >
-              <Section bgImage = 'bg-bwBox' bgColor='bg-black' title={lor}/>
+              <Section bannerBG = 'bg-blackRain' bgImage = 'bg-bwBox' bgColor='bg-black' title='Title' text={lor}/>
             </div>
-            <Banner bgImage = 'bg-goldLight' title = 'Contact' bgColor = 'bg-yellow-700'/>
             <div className="snap-always snap-center" >
-              <Section bgImage = 'bg-goldForest' bgColor='bg-yellow-900' title={lor}/>
+              <Section bannerColor = 'bg-yellow-700' bannerBG = 'bg-goldLight' bgImage = 'bg-goldForest' bgColor='bg-yellow-900' title='Title' text={lor}/>
             </div>
       </div>
     </>

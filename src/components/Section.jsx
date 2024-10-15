@@ -1,11 +1,13 @@
 import React from 'react'
+import Banner from './Banner'
 
-function Section({bgImage, bgColor, title}) {
+
+function Section({bannerColor, bannerBG, bgImage, bgColor, title, text}) {
   return (
     // container
         <div className='snap-y snap-mandatory h-screen w-screen overflow-scroll scroll-smooth'>
-            {/* slider */}
-                <div className={`
+            <Banner bgImage = {bannerBG} title = {title} bgColor={bgColor}/>
+            <div className={`
                     ${bgImage}
                     '
                     bg-cover
@@ -14,23 +16,23 @@ function Section({bgImage, bgColor, title}) {
                     justify-center 
                     snap-start 
                     bg-stone-600 
-                    h-screen 
+                    h-4/5 
                     w-screen
                     text-white
                     '
                     `}>
                         <div className={`
                             ${bgColor}
-                            'h-4/5 
+                            'h-auto
                             w-4/5 
                             rounded-lg
                             opacity-80 
                             grid
                             grid-cols-3
                             `}>
-                            <p className='text-white p-20'>{title}</p>
-                            <p className='text-white p-20'>{title}</p>
-                            <p className='text-white p-20'>{title}</p>
+                            <p className='text-white p-20'>{text}</p>
+                            <p className='text-white p-20'>{text}</p>
+                            <p className='text-white p-20'>{text}</p>
 
                         </div>
                 </div>

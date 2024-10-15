@@ -16,7 +16,7 @@ function Section({bannerColor, bannerBG, bgImage, bgColor, title, text}) {
                     justify-center 
                     snap-start 
                     bg-stone-600 
-                    h-4/5 
+                    h-4/5
                     w-screen
                     text-white
                     '

@@ -10,8 +10,11 @@ const App = () => {
   //return component
   return (
     <>
-      <Navbar />
+      
       <div className="snap-y snap-mandatory overflow-y-scroll h-screen ">
+            <div className="snap-always snap-center">
+              <Navbar />
+            </div>
             <div className="snap-always snap-center">
               <Section bannerBG = 'bg-meteorShower' bgImage = 'bg-space' bgColor='bg-cyan-900' title='Title' text={lor}/>
             </div>
@@ -19,7 +22,7 @@ const App = () => {
               <Section bannerBG = 'bg-blackRain' bgImage = 'bg-bwBox' bgColor='bg-black' title='Title' text={lor}/>
             </div>
             <div className="snap-always snap-center" >
-              <Section bannerColor = 'bg-yellow-700' bannerBG = 'bg-goldLight' bgImage = 'bg-goldForest' bgColor='bg-yellow-900' title='Title' text={lor}/>
+              <Section bannerBG = 'bg-blackRain' bgImage = 'bg-bwBox' bgColor='bg-black' title='Title' text={lor}/>
             </div>
       </div>
     </>

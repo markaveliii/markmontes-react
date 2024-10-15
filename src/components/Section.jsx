@@ -30,9 +30,9 @@ function Section({bannerColor, bannerBG, bgImage, bgColor, title, text}) {
                             grid
                             grid-cols-3
                             `}>
-                            <p className='text-white p-20'>{text}</p>
-                            <p className='text-white p-20'>{text}</p>
-                            <p className='text-white p-20'>{text}</p>
+                            <p className='text-sm text-white p-20 flex items-center justify-center'>{text}</p>
+                            <p className='text-sm text-white p-20 flex items-center justify-center'>{text}</p>
+                            <p className='text-sm text-white p-20 flex items-center justify-center'>{text}</p>
 
                         </div>
                 </div>

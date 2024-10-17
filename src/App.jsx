@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       
-      <div className="snap-y snap-mandatory overflow-y-scroll h-screen ">
+      <div className="snap-y snap-mandatory overflow-y-scroll h-screen w-screen">
             <div className="snap-always snap-center">
               <Navbar />
             </div>

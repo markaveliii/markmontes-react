@@ -11,7 +11,6 @@ function Banner({title , bgImage, bgColor}) {
     justify-center 
     snap-start 
     bg-stone-600 
-    w-screen
     text-white
     bg-fixed
     h-1/5

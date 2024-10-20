@@ -44,7 +44,6 @@ Error generating stack: `+i.message+`
     flex 
     items-center 
     justify-center 
-    snap-start 
     bg-stone-600 
     text-white
     bg-fixed
@@ -60,7 +59,7 @@ Error generating stack: `+i.message+`
             justify-center
             h-3/4
             w-2/4
-            '`,children:N.jsx("p",{className:"text-white p-20",children:e})})})}function Wl({bannerColor:e,bannerBG:n,bgImage:t,bgColor:r,title:l,text:i}){return N.jsxs("div",{className:"snap-y snap-mandatory h-screen overflow-y-scroll scroll-smooth w-screen",children:[N.jsx(jd,{bgImage:n,title:l,bgColor:r}),N.jsx("div",{className:`
+            '`,children:N.jsx("p",{className:"text-white p-20",children:e})})})}function Wl({bannerColor:e,bannerBG:n,bgImage:t,bgColor:r,title:l,text:i}){return N.jsxs("div",{className:"snap-y snap-mandatory h-screen scroll-smooth w-screen",children:[N.jsx(jd,{bgImage:n,title:l,bgColor:r}),N.jsx("div",{className:`
                     ${t}
                     '
                     bg-cover
@@ -80,4 +79,5 @@ Error generating stack: `+i.message+`
                             opacity-80 
                             grid
                             grid-cols-3
+                            snap-end
                             `,children:[N.jsx("p",{className:"text-sm text-white p-20 flex items-center justify-center",children:i}),N.jsx("p",{className:"text-sm text-white p-20 flex items-center justify-center",children:i}),N.jsx("p",{className:"text-sm text-white p-20 flex items-center justify-center",children:i})]})})]})}const Rd=()=>{const e="Lorem ipsum dolor sit amet";return N.jsx(N.Fragment,{children:N.jsxs("div",{className:"snap-y overflow-y-scroll h-screen w-screen",children:[N.jsx("div",{className:"snap-always snap-center",children:N.jsx(Td,{})}),N.jsx("div",{className:"snap-always snap-center",children:N.jsx(Wl,{bannerBG:"bg-meteorShower",bgImage:"bg-space",bgColor:"bg-cyan-900",title:"Title",text:e})}),N.jsx("div",{className:"snap-always snap-center",children:N.jsx(Wl,{bannerBG:"bg-blackRain",bgImage:"bg-bwBox",bgColor:"bg-black",title:"Title",text:e})}),N.jsx("div",{className:"snap-always snap-center",children:N.jsx(Wl,{bannerBG:"bg-goldLight",bgImage:"bg-goldForest",bgColor:"bg-black",title:"Title",text:e})})]})})};nc(document.getElementById("root")).render(N.jsx(Bi.StrictMode,{children:N.jsx(Rd,{})}));

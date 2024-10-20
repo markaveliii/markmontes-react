@@ -5,7 +5,7 @@ import Banner from './Banner'
 function Section({bannerColor, bannerBG, bgImage, bgColor, title, text}) {
   return (
     // container
-        <div className='snap-y snap-mandatory h-screen scroll-smooth w-screen'>
+        <div className='snap-y h-screen scroll-smooth w-screen'>
             <Banner bgImage = {bannerBG} title = {title} bgColor={bgColor}/>
             <div className={`
                     ${bgImage}

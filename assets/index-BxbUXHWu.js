@@ -59,7 +59,7 @@ Error generating stack: `+i.message+`
             justify-center
             h-3/4
             w-2/4
-            '`,children:N.jsx("p",{className:"text-white p-20",children:e})})})}function Wl({bannerColor:e,bannerBG:n,bgImage:t,bgColor:r,title:l,text:i}){return N.jsxs("div",{className:"snap-y snap-mandatory h-screen scroll-smooth w-screen",children:[N.jsx(jd,{bgImage:n,title:l,bgColor:r}),N.jsx("div",{className:`
+            '`,children:N.jsx("p",{className:"text-white p-20",children:e})})})}function Wl({bannerColor:e,bannerBG:n,bgImage:t,bgColor:r,title:l,text:i}){return N.jsxs("div",{className:"snap-y h-screen scroll-smooth w-screen",children:[N.jsx(jd,{bgImage:n,title:l,bgColor:r}),N.jsx("div",{className:`
                     ${t}
                     '
                     bg-cover

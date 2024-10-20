@@ -9,7 +9,6 @@ function Banner({title , bgImage, bgColor}) {
     flex 
     items-center 
     justify-center 
-    snap-start 
     bg-stone-600 
     text-white
     bg-fixed
